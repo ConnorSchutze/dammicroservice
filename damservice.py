@@ -94,6 +94,9 @@ class DamDataServer():
             with open(check_path, "r") as file:
                 content = file.readlines()
 
+                if not content:
+                    content = [""]
+
             # Handle requests
             for key in self.requests.keys():
                 if key in content[0]:
