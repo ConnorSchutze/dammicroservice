@@ -25,4 +25,4 @@ name of the end path given in the code. It is preset to data so the final output
 data.txt or data.csv. After which you can simply read this organized data from the file.
 
 ## UML Sequence Diagram
-
+![Alt text](images/UMD.png)
